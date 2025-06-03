@@ -1,14 +1,11 @@
-package com.latita;
+package com.latita.products;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProdutosApiApplication {
-
-
+public class ProductApiApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(ProdutosApiApplication.class, args);
+		SpringApplication.run(ProductApiApplication.class, args);
 	}
-
 }
