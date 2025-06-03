@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("/")
     public String home() {
-        return "API de Produtos está rodando! Acesse /api/produtos para ver os produtos";
+        return "API de Produtos LATITA está rodando! Acesse /api/produtos para ver os produtos";
     }
 }
